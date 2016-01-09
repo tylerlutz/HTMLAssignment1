@@ -1,0 +1,23 @@
+body {
+	background-color: rgba(213, 209, 209, 0.95);
+}
+
+h1 {
+	color: aqua;
+}
+			
+h2 {
+	font-style: italic;
+}
+			
+pre {
+	background-color: #ff6868;
+}
+			
+.fantasyFont {
+	font-family: fantasy;
+}
+			
+#scoringTable {
+	padding-top: 50px;
+}
