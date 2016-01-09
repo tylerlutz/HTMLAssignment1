@@ -1,0 +1,13 @@
+body {
+	background: url(../img/bck_left.jpg) no-repeat, url(../img/bck_right.jpg) repeat-y;
+}
+
+#containerLeft {
+	margin-left: 142px;
+	width: 265px;
+}
+
+#titleImage {
+	display: block;
+	margin: auto;
+}
