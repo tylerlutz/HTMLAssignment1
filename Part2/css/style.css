@@ -3,6 +3,21 @@ body {
 	font-family: arial;
 }
 
+ul {
+	margin-left: 40px;
+}
+
+ul li {
+	display: inline;
+	padding-left: 20px;
+	font-size: small
+}
+
+ul li:hover {
+	background: url(../img/svirgolata.gif) no-repeat;
+	background-position-y: -5px;
+}
+
 .paraLeft {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -56,6 +71,12 @@ body {
 .lightHeading {
 	margin-right: 5px;
 	font-weight: lighter;
+}
+
+.noDecoration {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 
 #containerLeft {
