@@ -10,12 +10,32 @@ body {
 
 .indent {
 	margin-top: -8px; 
-	padding-left: 40px;
+	text-indent: 40px;
 }
 
 .blackLink {
 	font-weight: bold;
 	color: black;
+}
+
+.blackLink:hover {
+	background: #dcdcdc;
+	color: black;
+}
+
+.noSpace {
+	margin-top: -8px;
+}
+
+.imageHeading {
+	background: url(../img/piuma.gif) no-repeat top left;
+	padding-left: 30px;
+	margin-left: 10px;
+	font-weight: lighter;
+}
+
+.smallSpacer {
+	margin-top: 30px;
 }
 
 #containerLeft {
