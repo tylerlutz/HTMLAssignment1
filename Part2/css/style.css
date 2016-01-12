@@ -8,14 +8,29 @@ body {
 	padding-right: 10px;
 }
 
+.paraRight {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 .indent {
 	margin-top: -8px; 
 	text-indent: 40px;
 }
 
-.blackLink {
+.blackLinkBold {
 	font-weight: bold;
 	color: black;
+}
+
+.blackLinkBold:hover {
+	background: #dcdcdc;
+	color: black;
+}
+
+.blackLink {
+	color: black;
+	text-decoration: none
 }
 
 .blackLink:hover {
@@ -38,9 +53,24 @@ body {
 	margin-top: 30px;
 }
 
+.lightHeading {
+	margin-right: 5px;
+	font-weight: lighter;
+}
+
 #containerLeft {
 	margin-left: 127px;
 	width: 430px;
+	font-size: x-small;
+	float: left;
+}
+
+#containerRight {
+	margin-left: 24px;
+	margin-top: 145px;
+	float: left;
+	width: 198px;
+	text-align: right;
 	font-size: x-small;
 }
 
