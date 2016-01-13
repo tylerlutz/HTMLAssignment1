@@ -3,50 +3,69 @@
 	<head>
 		<title>Tyler Lutz - Javascript Calculator</title>
 		
+		<!-- Adding Custom Stylesheet -->
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-		
-		<script src="js/calculator.js" type="text/javascript"></script>
+				
 	</head>
 	<body>
-		<form name="calc">
-			<table border="2">
-				<tr>
-					<td colspan="4"><input type="text" name="display" id="display"></td>
-				</tr>
-				<tr>
-				</tr>
-				<tr>
-				</tr>
-				<tr>
-					<td colspan="2"><input type="button" value="CE" OnClick="calc.display.value=''" class="calcButton"></td>
-					<td><input type="button" value="+/-" OnClick="calc.display.value+='-'" class="calcButton"></td>
-					<td><input type="button" value="%" OnClick="calc.display.value+=' % '" class="calcButton"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="7" OnClick="calc.display.value+='7'" class="calcButton"></td>
-					<td><input type="button" value="8" OnClick="calc.display.value+='8'" class="calcButton"></td>
-					<td><input type="button" value="9" OnClick="calc.display.value+='9'" class="calcButton"></td>
-					<td><input type="button" value="/" OnClick="calc.display.value+=' / '" class="calcButton"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="4" OnClick="calc.display.value+='4'"class="calcButton"></td>
-					<td><input type="button" value="5" OnClick="calc.display.value+='5'" class="calcButton"></td>
-					<td><input type="button" value="6" OnClick="calc.display.value+='6'" class="calcButton"></td>
-					<td><input type="button" value="*" OnClick="calc.display.value+=' * '" class="calcButton"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="1" OnClick="calc.display.value+='1'" class="calcButton"></td>
-					<td><input type="button" value="2" OnClick="calc.display.value+='2'" class="calcButton"></td>
-					<td><input type="button" value="3" OnClick="calc.display.value+='3'" class="calcButton"></td>
-					<td><input type="button" value="-" OnClick="calc.display.value+=' - '" class="calcButton"></td>
-				</tr>
-				<tr>
-					<td><input type="button" value="0" OnClick="calc.display.value+='0'" class="calcButton"></td>
-					<td><input type="button" value="." OnClick="calc.display.value+='.'" class="calcButton"></td>
-					<td><input type="button" value="=" OnClick="calc.display.value = eval(calc.display.value)" class="calcButton"></td>
-					<td><input type="button" value="+" OnClick="calc.display.value+=' + '" class="calcButton"></td>
-				</tr>
-			</table>
-		</form>
+		<div class="nav">
+	      <ul>
+	        <li class="home"><a class="active" href="calculator.html">Home</a></li>
+	        <li class="tutorials"><a href="register.html">Registration</a></li>
+	        <li class="about"><a href="feedback.html">Feedback</a></li>
+	        <li class="news"><a href="faq.html">FAQ</a></li>
+	      </ul>
+    	</div>
+    	
+    	<div id="container">		
+			<form name="calc">
+				<table border="2">
+					<tr>
+						<td colspan="4"><input type="text" name="display" id="display"></td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="button" value="CE" OnClick="calc.display.value=''" class="calcButton"></td>
+						<td><input type="button" value="+/-" OnClick="calc.display.value+='-'" class="calcButton"></td>
+						<td><input type="button" value="%" OnClick="calc.display.value+=' % '" class="calcButton"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="7" OnClick="calc.display.value+='7'" class="calcButton"></td>
+						<td><input type="button" value="8" OnClick="calc.display.value+='8'" class="calcButton"></td>
+						<td><input type="button" value="9" OnClick="calc.display.value+='9'" class="calcButton"></td>
+						<td><input type="button" value="/" OnClick="calc.display.value+=' / '" class="calcButton"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="4" OnClick="calc.display.value+='4'"class="calcButton"></td>
+						<td><input type="button" value="5" OnClick="calc.display.value+='5'" class="calcButton"></td>
+						<td><input type="button" value="6" OnClick="calc.display.value+='6'" class="calcButton"></td>
+						<td><input type="button" value="*" OnClick="calc.display.value+=' * '" class="calcButton"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="1" OnClick="calc.display.value+='1'" class="calcButton"></td>
+						<td><input type="button" value="2" OnClick="calc.display.value+='2'" class="calcButton"></td>
+						<td><input type="button" value="3" OnClick="calc.display.value+='3'" class="calcButton"></td>
+						<td><input type="button" value="-" OnClick="calc.display.value+=' - '" class="calcButton"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="0" OnClick="calc.display.value+='0'" class="calcButton"></td>
+						<td><input type="button" value="." OnClick="calc.display.value+='.'" class="calcButton"></td>
+						<td><input type="button" value="=" OnClick="calc.display.value = eval(calc.display.value)" class="calcButton"></td>
+						<td><input type="button" value="+" OnClick="calc.display.value+=' + '" class="calcButton"></td>
+					</tr>
+				</table>
+			</form>
+			
+			<div id="instructions">
+				<h1>Instructions</h1>
+				<p>Click on the numbers you would like to enter for your first number and then click on the operator you would like to use.
+					Enter the second value and press the enter button. To clear the calculator press the CE button. To enter a negative number,
+					press the +/- button before entering the number. 
+				</p>
+			</div>
+    	</div>
 	</body>
 </html>
